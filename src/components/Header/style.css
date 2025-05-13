@@ -1,0 +1,87 @@
+import 
+.header
+{
+    /* background-color:blueviolet; */
+    display:flex;
+    height:70px;
+    justify-content:center;
+    align-items:center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-family:cursive;
+}
+.subHeader
+{
+    /* background-color:aqua; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:80%;
+}
+.NavBar
+{
+    display:flex;
+
+    span
+    {
+        padding: 9px;
+        font-weight: 500;
+        cursor:pointer;
+    }
+    span:hover
+    {
+        color:green;
+    }
+}
+.logo
+{
+    p
+    {
+        font-weight:900;
+        font-size:30px;
+    }
+}
+.iconInput
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:whitesmoke;
+    gap:1px;
+    padding-right:2px;
+    border:1px solid gray;
+    input 
+    {
+        height:25px;
+        border-radius:3px;
+        width:200px;
+        border:none;
+        /* border:1px solid gray;  */
+    }
+ 
+}
+.holder
+{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+}
+.burgerMenu
+{
+    display:none;
+}
+@media screen and (max-width: 600px)
+{
+    .NavBar
+    {
+        display:none;
+    }
+    .holder
+    {
+        display:none;
+    }
+    .burgerMenu
+     {
+        display:flex;
+     }
+}

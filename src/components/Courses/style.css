@@ -1,0 +1,75 @@
+.courseCon
+{
+    /* height:auto; */
+    height:750px;
+    /* background-color:blueviolet; */
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background-color:blueviolet */
+}
+.courseOne{
+    width:80%;
+    height:100%;
+    /* background-color:chartreuse; */
+}
+.popular
+{
+    display:flex;
+    justify-content:space-between;
+    span
+    {
+        font-weight: bold;
+        font-size:30px;
+    };
+    button
+    {
+        background-color:green;
+        border:none;
+        padding:5px;
+        color:white;
+        font-weight:bolder;
+        width:150px;
+    }
+}
+.contentCourses
+{
+    /* background-color:brown; */
+    margin-top:30px;
+    //no-matter what it will take the whole space for the content that will be given
+    flex:1;
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+ 
+}
+.coursesCard
+{
+    height:370px;
+    width:350px;
+    margin-bottom:10px;
+    span
+    {
+        margin-top:20px;
+        font-weight:700;
+    }
+}
+.imgCon
+{
+    height:180px;
+    background-color:brown;
+   
+    img
+    {
+        height:100%;
+        width:100%;
+    }
+ }
+   
+.dateCon
+{   margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+   
+}

@@ -11,7 +11,7 @@ const Home=()=>{
         <div>
          <Header userData={user}/>
          <Hero/>
-         <Courses/>1
+         <Courses/>
         </div>
     )
 }
